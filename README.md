@@ -2,6 +2,7 @@
 **Controlling your PC cursor using hand gestures.**
 
 This project uses Computer Vision and Hand Tracking to allow users to control their mouse movement and clicks without touching the physical device. It leverages **MediaPipe** for hand landmark detection and **PyAutoGUI** for controlling system inputs.
+**Demo video at the very bottom**
 
 ---
 
@@ -50,4 +51,8 @@ This project uses Computer Vision and Hand Tracking to allow users to control th
 * **`hand_landmarker.task`**: Pre-trained MediaPipe model.
 * **`check_env.py`**: Environment verification script.
 * **`webcam_check.py`**: Webcam access utility.
+
+
+### 📺 Demo Video
+<video src="https://github.com/user-attachments/assets/319568bd-3f0d-49bd-897d-c799c0bf3d8c" controls="controls" style="max-width: 100%; height: auto;"></video>
 
