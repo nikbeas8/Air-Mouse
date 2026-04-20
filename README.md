@@ -6,14 +6,14 @@ This project uses Computer Vision and Hand Tracking to allow users to control th
 
 ---
 
-### 🚀 Features
-* **Cursor Movement:** Move your hand to move the cursor on the screen.
+## Features
+* **Cursor Movement:** Move your hand to move the cursor on the screen. (Tracks pinky finger to calculate cursor position)
 * **Clicking:** Use specific finger gestures to perform clicks.
 * **Real-time Performance:** Low-latency tracking using a standard webcam.
 
 ---
 
-### 🖐️ How to Use (Gestures)
+##  How to Use (Gestures🖐️)
 | Action | Gesture |
 | :--- | :--- |
 | **Move Cursor** | Move your hand with fingers visible to the camera. |
@@ -22,7 +22,7 @@ This project uses Computer Vision and Hand Tracking to allow users to control th
 
 ---
 
-### 🛠️ Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository:**
    ```bash
@@ -39,20 +39,20 @@ This project uses Computer Vision and Hand Tracking to allow users to control th
 
 ---
 
-### 💻 How to Run
+### How to Run
   **To start the air mouse application, execute the main script**:
   ```bash
   python final.py
 ```
 ---
 
-### 📂 Project Structure
+## Project Structure
 * **`final.py`**: The main application script.
 * **`hand_landmarker.task`**: Pre-trained MediaPipe model.
 * **`check_env.py`**: Environment verification script.
 * **`webcam_check.py`**: Webcam access utility.
 
 
-### 📺 Demo Video
+## Demo Video
 <video src="https://github.com/user-attachments/assets/319568bd-3f0d-49bd-897d-c799c0bf3d8c" controls="controls" style="max-width: 100%; height: auto;"></video>
 
